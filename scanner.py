@@ -22,7 +22,7 @@ side_hustles = {
 side_hustle_scores = {side_hustle: 0 for side_hustle in side_hustles}
 
 # Open the file in read mode
-with open('uploaded_resume.pdf', 'r') as file:
+with open('input.txt', 'r') as file:
     content = file.read()
     words = content.split()
 
