@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif; 
+        }
+        .container {
+            max-width: 600px; 
+            margin: 0 auto; 
+            padding: 20px;
+            margin-top: -25vh;
+        }
+        h1 {
+            font-size: 48px; 
+            font-weight: bold;
+            margin-bottom: 20px; 
+        }
+        p {
+            font-size: 24px; 
+            font-weight: bold; 
+            margin: 10px 0; 
+        }
+        .highlight {
+            color: #ff3f00; 
+            font-size: 30px; 
+            font-weight: bold; 
+        }
+        a {
+            text-decoration: underline; 
+            color: #00bfff; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Results</h1>
+        <p>Your best matching side hustle is:</p>
+        <p class="highlight">{{ hustle }}</p> 
+        <p>Score: {{ score }}</p> 
+        <p>Want another side hustles?</p>
+        <p><a href="{{ hustle_link }}" target="_blank">Upload New Resume</a></p> 
+    </div>
+</body>
+</html>
