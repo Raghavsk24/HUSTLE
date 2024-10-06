@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Resume</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            margin-top: -50vh;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+        input[type="file"] {
+            margin-bottom: 10px;
+            display: none;
+        }
+        label {
+            background-color: #ff3f00;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #00bfff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Resume</h1>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" id="file" name="file" accept=".txt,.docx,.pdf" required>
+            <label for="file">Choose File</label>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script>
+        const fileInput = document.getElementById('file');
+        const label = document.querySelector('label[for="file"]');
+
+        label.addEventListener('click', function() {
+            fileInput.click();
+        });
+    </script>
+</body>
+</html>
