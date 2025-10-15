@@ -20,7 +20,6 @@ Built by Raghav Senthil Kumar & Vignesh Nagarajan. Backed by [Jetson](https://ww
   - Received direct mentorship from Jetson's CEO (Will Rush) & CTO (Natalie Young)
   - Pitched to a live audience of 32 angel investors/VCs and ultimately secured a $3,000 award
   - Grew to 53 users
-- Continued development until December 2024
 
 
 
