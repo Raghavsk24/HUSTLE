@@ -3,6 +3,8 @@ Hustle is an all-in-one web solution to finding the **perfect side hustle!** Sim
 
 Built by Raghav Senthil Kumar & Vignesh Nagarajan. Backed by [Jetson](https://www.jetson.app/).
 
+**Product Demo**: 
+
 **Software Features**
 - Resume/CV Upload (PDF and DOCX Files)
 - MySQL-based Relational Databases
@@ -10,7 +12,7 @@ Built by Raghav Senthil Kumar & Vignesh Nagarajan. Backed by [Jetson](https://ww
 - Optimized Tech Stack
   - Frontend Design via Javascript & HTML/CSS
   - Backend Design via Python & Flask API
-  - SpaCy NLP text process
+  - Text Processing via SpaCy NLP
 
 
 **Startup Accomplishments**
