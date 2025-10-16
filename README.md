@@ -16,7 +16,7 @@ Built by Raghav Senthil Kumar & Vignesh Nagarajan. Backed by [Jetson](https://ww
 
 
 **Startup Accomplishments**
-- Built through Jetson's Entrepreneurs-in-Residence Program (June - August 2024)
+- Built through Jetson's Entrepreneurs-in-Residence Program (June - July 2024)
   - Received direct mentorship from Jetson's CEO (Will Rush) & CTO (Natalie Young)
   - Pitched to a live audience of 32 angel investors/VCs and ultimately secured a $3,000 award
   - Grew to 53 users
