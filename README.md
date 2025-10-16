@@ -3,7 +3,7 @@ Hustle is an all-in-one web solution to finding the **perfect side hustle!** Sim
 
 Built by Raghav Senthil Kumar & Vignesh Nagarajan. Backed by [Jetson](https://www.jetson.app/).
 
-**Product Demo**: 
+**Product Demo**: https://youtu.be/JiFcL1ZbwDs?si=KUf0pZsQHnMRmk4t
 
 **Software Features**
 - Resume/CV Upload (PDF and DOCX Files)
